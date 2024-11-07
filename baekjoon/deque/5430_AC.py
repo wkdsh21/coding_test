@@ -6,6 +6,9 @@ input = sys.stdin.readline
 t = int(input())
 
 
+# 스택과 큐의 차이점
+# deque는 둘다
+# 그래서 시간복잡도가 양쪽다 1
 # RR 을 지우면 더빨라질수있음
 def ac_func():
     ac = input().rstrip()
