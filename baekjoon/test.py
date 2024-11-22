@@ -1,6 +1,9 @@
-from bisect import bisect_left, bisect_right
-
-a = [1, 3, 4]
-num = 2
-print(bisect_right(a, num))
-print(bisect_left(a, num))
+li = ["*", "-", "+", "//"]
+a = 5
+b = 1
+c = 6
+for i in li:
+    if eval(f"{a}{i}{b}=={c}"):
+        print(f"{a}{i}{b} = {c}")
+    if eval(f"c==b{i}a"):
+        print(f"{a}{i}{b} = {c}")
